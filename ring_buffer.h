@@ -1,4 +1,7 @@
 
+#ifndef XO_COLLECTION_RING_BUFFER
+#define XO_COLLECTION_RING_BUFFER
+
 #include <array>
 #include <optional>
 #include <variant>
@@ -179,3 +182,5 @@ namespace xo::collection
 		index_t write;
 	};
 }
+
+#endif
